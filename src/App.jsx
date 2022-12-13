@@ -1,10 +1,5 @@
 import React from 'react';
 
-
-const App = () => {
-  return (<div>
-    Webpack
-  </div>);
-};
+const App = () => <div>Webpack</div>;
 
 export default App;

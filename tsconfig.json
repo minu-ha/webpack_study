@@ -1,32 +1,40 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "baseUrl": "./src",
+    "checkJs": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./build",
     "paths": {
       "public/*": [
         "../public/*"
       ]
     },
-    "baseUrl": "./src",
-    "target": "es5",
-    "module": "esnext",
-    "allowJs": true,
-    "checkJs": true,
-    "jsx": "preserve",
-    "declaration": true,
-    "outDir": "./build",
     "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
     "strict": true,
-    "strictNullChecks": true,
     "strictFunctionTypes": true,
+    "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "alwaysStrict": true,
-    "noEmit": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "target": "es5"
   },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "node_modules"
   ]
