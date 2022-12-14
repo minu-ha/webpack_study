@@ -11,7 +11,7 @@ module.exports = (_env, argv) => {
   return {
     mode: 'development',
     entry: {
-      main: './src/index.js'
+      main: './src/index.ts'
     },
     output: {
       filename: 'bundle.[hash].js'

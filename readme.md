@@ -20,8 +20,8 @@ React + TypeScript + Webpack + Babel
 ##### dev environment & prod environment config structure
 
 1. Set up a Basic React app with TypeScript and Webpack 5
-  1. Design the directory structure and use npm to install dependencies and add
-     configuration files.
+1. Design the directory structure and use npm to install dependencies and add
+   configuration files.
 2. Configure webpack and TypeScript to allow rendering of images and SVGs
 3. Set up Webpack config for multiple environments like dev and prod
 4. Add react refresh
@@ -39,14 +39,14 @@ React + TypeScript + Webpack + Babel
 6. npm install react react-dom
 7. npm install typescript @types/react @types/react-dom -D
 8. add tsconfig.json in root
-9. add App.tsx, index.tsx in root
+9. add App.tsx, index.ts in root
 10. npm install @babel/core @babel/preset-env @babel/preset-react
     @babel/preset-typescript -D
 11. add .babelrc in root
 12. npm install webpack webpack-cli webpack-dev-server html-webpack-plugin -D
 13. npm install babel-loader
 14. add dir webpack, webpack.config.js
-  1. start : webpack serve --config webpack/webpack.config.js --open
+1. start : webpack serve --config webpack/webpack.config.js --open
 
 ##### configurations to handle additional scenarios
 
@@ -59,8 +59,8 @@ React + TypeScript + Webpack + Babel
 2. in dev.js setting mode : development, devtool : cheap-module-source-map
 3. in prod.js setting mode : production, devtool : source-map
 4. npm install webpack-merge -D
-  1. `const { merge } = require('webpack-merge')`
-  2. `const commonConfig = require('./webpack.common.js')`
+1. `const { merge } = require('webpack-merge')`
+2. `const commonConfig = require('./webpack.common.js')`
 
 ##### react refresh
 
